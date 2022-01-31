@@ -1,0 +1,158 @@
+body{
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: rgb(44, 44, 43);
+    color: white;
+    text-shadow: rgba(3, 3, 3, 0.35) 0px 8px 15px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+header{
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 8px 15px;
+    background-color: black;
+    font-size: 1.5rem;
+}
+
+footer{
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 8px 15px;
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+header, .nav-link{
+    color: white;
+}
+
+
+.fab{
+    color: white;
+    margin-right: 5px;
+}
+
+.active{
+    color: grey;
+    pointer-events: none;
+}
+
+
+.carousel-item {
+    height: 55rem;
+}
+
+section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.rounded-5 { 
+    border-radius: 1rem; 
+    border-style: none;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+}
+
+.card-cover{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagens/main1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 850px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+    color: white;
+}
+
+.hero2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagens/main2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 850px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+    color: white;
+}
+
+.hero3{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagens/main3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 850px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+    color: white;
+}
+
+.heromenu{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagens/mainmenu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 500px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+    color: white;
+}
+
+.herocomentarios{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagens/review.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    height: 500px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+    color: white;
+}
+  
+.btn{
+    background-color: yellow;
+}
+
+.card-img-left {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 0 3px 3px 0;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-carrinho{
+    background-color: black;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 20px 15px;
+}
+
+.card-menu{
+    background-color: black;
+}
+
+.marketing img{
+    object-fit: cover;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
